@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    /* padding: jarak border ke konten */
+    margin: 0;
+    /* margin: jarak antar elemen */
+}
+
+/* # digunakan untuk memanggil elemen berdasarkan ID nya */
+#header {
+    width: 100%;
+    /* untuk mengatur lebar */
+    height: 60vh;
+    /* vh adalah satuan viewport height */
+    background-color: #20a860;
+
+    /* utk centering content */
+    display: flex;
+    /* flex: flexible */
+    justify-content: center;
+    /* justify content: utk center konten secara horizontal */
+    align-items: center;
+    /* align items: utk center konten secara vertikal */
+}
+
+#title {
+    width: 70%;
+    text-align: center;
+    /* text-align: perataan teks */
+}
+
+#title>h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Tahoma';
+}
+
+#title>h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Tahoma';
+    color: white;
+}
+
+#title>p {
+    font-size: 16px;
+    font-family: 'Tahoma';
+}
+
+#title>button {
+    background-color: coral;
+    color: white;
+    padding: 15px;
+    border: none;
+    /* border: garis tepi */
+    margin: 10px;
+    border-radius: 15px;
+    /* setting corner menjadi rounded */
+    width: 200px;
+    font-size: 20px;
+}
+
+#feature {
+    width: 100%;
+}
+
+#feature>h2 {
+    font-size: 35px;
+    font-family: "Tahoma";
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#feature>p{
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+}
+
+#feature-area{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-item{
+    width: 40%;
+    background-color: lightgrey;
+    height: 100px;
+    margin: 15px;
+}
+
+.feature-item>span{   
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* utk membuat lengkungan pd border */
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
