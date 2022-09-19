@@ -143,6 +143,55 @@
     padding-left: 10px;
 }
 
+#quotes{
+    width: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#icon-user{
+    font-size: 120px;
+    width: 120px;
+    height: 120px;
+    border: 5px solid grey;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#text-quotes{
+    font-size: 20px;
+    font-family: "Tahoma";
+    color: gray;
+    font-style: italic;
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#menu>a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#menu>a:hover{
+    color: greenyellow;
+}
+
+
+
 
 
 
